@@ -19,7 +19,6 @@ const Banner = () => {
         }
         fetchData();
     }, []);
-    console.log(movie);
 
     const turnCate = (string, n) => {
         return string?.length > n ? string.substr(0, n - 1) + '.....' : string;
