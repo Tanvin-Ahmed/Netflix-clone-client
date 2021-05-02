@@ -1,0 +1,20 @@
+#modal{
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    -webkit-overflow-scrolling: touch;
+    scroll-behavior: smooth;
+}
+#modal::-webkit-scrollbar {
+    display: none;
+}
+.close__button{
+    border: none;
+    background: none;
+    color: white;
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+.close__button:hover{
+    color: red;
+}

@@ -1,0 +1,67 @@
+.login{
+    position: relative;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.8), rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.8)), url('../../img/login-bg/loginB.webp');
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 100%;
+    height: 100vh;
+}
+.login__logo{
+    position: fixed;
+    left: 0;
+    width: 150px;
+    object-fit: contain;
+    padding-left: 20px;
+}
+.login__button{
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: white;
+    background-color: #e50914;
+    border: none;
+    cursor: pointer;
+}
+.login__body{
+    color: white;
+    z-index: 1;
+    padding: 20px;
+    padding-top: 10rem;
+    text-align: center;
+}
+.login__body > h1 {
+    font-size: 3.125rem;
+    margin-bottom: 20px;
+} 
+.login__body > h2 {
+    font-size: 2rem;
+    font-weight: 400;
+    margin-bottom: 30px;
+} 
+.login__body > h3 {
+    font-size: 1.3rem;
+    font-weight: 400;
+} 
+.login__input > form > input{
+    padding: 10px;
+    outline: none;
+    height: 30px;
+    width: 15rem;
+    border: none;
+}
+
+.login__getStarted {
+    padding: 15.99px 20px;
+    font-size: 1rem;
+    color: white;
+    background-color: #e50914;
+    border: none;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+.login__getStarted:hover {
+    background-color: #ff0e1a;
+}
